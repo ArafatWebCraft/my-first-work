@@ -1,0 +1,4540 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap"); * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lora, serif;
+}
+
+menu {
+    width: 100%;
+}
+
+.menu-bar {
+    width: 100%;
+    background: rgb(238, 236, 236);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 61px;
+}
+
+.menu-item {
+    margin-right: 44px;
+}
+
+.logo h1 {
+    font-size: 32px;
+    color: black;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.mani-menu {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+    transition: all 0.5s ease 0s;
+}
+
+.mani-menu > li > a {
+    padding: 19px 11px;
+}
+
+.mani-menu > li > a:hover {
+    transform: scale(1.2);
+}
+
+.sub-menu {
+    position: relative;
+}
+
+.sub-menu:hover .sub-list {
+    opacity: 1;
+    top: 64px;
+    pointer-events: all;
+}
+
+.sub-list {
+    position: absolute;
+    background: rgb(170, 187, 170);
+    width: 200px;
+    line-height: 39px;
+    transition: all 0.5s ease 0s;
+    top: 134px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sub-list li a {
+    font-size: 22px;
+    color: black;
+    display: block;
+    transition: all 0.5s ease 0s;
+    padding: 2px 9px;
+}
+
+.sub-list li a:hover {
+    background: rgb(3, 49, 46);
+    color: black;
+}
+
+section.make-money {
+    width: 100%;
+}
+
+.main-logo {
+    display: flex;
+    background: url("hero-bg.png") center bottom / 100% no-repeat rgb(218, 224, 226);
+}
+
+.money-create {
+    margin-top: 65px;
+    margin-left: 69px;
+    max-width: 441px;
+}
+
+.text-money {
+    margin-bottom: 82px;
+}
+
+.text-money h1 {
+    margin-bottom: 56px;
+    color: rgb(56, 86, 98);
+    font-size: 62px;
+}
+
+.text-money p {
+    line-height: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+button.started {
+    outline: none;
+    border: none;
+    color: white;
+    padding: 14px 68px;
+    border-radius: 28px;
+    font-size: 23px;
+    background: rgb(38, 70, 83);
+}
+
+button.started i {
+    color: rgb(233, 196, 102);
+    margin-left: 25px;
+}
+
+.money-service {
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-image img {
+    width: 72%;
+    display: inherit;
+}
+
+.mobile-image {
+    margin-top: 168px;
+    margin-left: 152px;
+}
+
+.money-service ul {
+    line-height: 31px;
+}
+
+.money-service ul li {
+    color: black;
+    font-size: 17px;
+}
+
+.money-service ul li i {
+    margin-right: 13px;
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+    color: rgb(50, 100, 95);
+}
+
+.money-service ul li i::after {
+    content: "";
+    background: rgb(233, 196, 106);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -5px;
+    z-index: -1;
+    top: -6px;
+    border-radius: 50%;
+}
+
+.ratting {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background: white;
+    overflow: hidden;
+    margin-top: 75px;
+    display: flex;
+    margin-left: 175px;
+    justify-content: space-between;
+    margin-bottom: 54px;
+}
+
+.ratting-point {
+    max-width: 125px;
+}
+
+.content-rating {
+    max-width: 372px;
+    margin-top: 8px;
+    padding: 6px 42px;
+    line-height: 30px;
+}
+
+.lorem {
+    max-width: 568px;
+}
+
+.ratting-point h2 {
+    color: black;
+    font-size: 83px;
+    letter-spacing: 3px;
+    margin-bottom: 19px;
+}
+
+.ratting-point span {
+    color: orange;
+    letter-spacing: 1px;
+}
+
+.ratting-point p {
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(72, 47, 47);
+}
+
+.content-rating h3 {
+    font-size: 21px;
+    color: orange;
+    margin-bottom: 36px;
+}
+
+.content-rating p {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.lorem p {
+    padding-right: 122px;
+    line-height: 29px;
+    font-size: 18px;
+}
+
+.lorem {
+    max-width: 513px;
+    padding: 0px 12px;
+    margin-right: 53px;
+    position: relative;
+}
+
+.lorem::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 148px;
+    background: orange;
+    left: -2px;
+}
+
+.lorem h3 {
+    margin-top: 4px;
+    margin-left: 24px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.lorem h3::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 1px;
+    background: rgba(123, 119, 119, 0.92);
+    top: 12px;
+    left: -20px;
+}
+
+.image-hover {
+    position: relative;
+    margin-left: 40px;
+    max-width: 360px;
+}
+
+.sub-hover {
+    position: relative;
+    border: 1px solid beige;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.hover-image {
+    transition: all 0.5s ease 0s;
+}
+
+.sub-hover:hover .effect {
+    margin-top: 15px;
+}
+
+.sub-hover:hover .text-effect {
+    background: none;
+}
+
+.sub-hover:hover .effect h3::before {
+    background: white;
+}
+
+.sub-hover:hover a.read {
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+.hover-image img {
+    width: 100%;
+}
+
+.text-effect {
+    position: absolute;
+    top: 0px;
+    background: rgb(38, 70, 83);
+    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+.effect {
+    margin-top: 65px;
+    margin-left: 38px;
+    transition: all 0.5s ease 0s;
+}
+
+.effect h3 {
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    left: 19px;
+}
+
+.effect h3::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: rgba(120, 203, 236, 0.13);
+    border-radius: 50%;
+    z-index: -1;
+    left: -20px;
+    top: -6px;
+    transition: all 0.5s ease 0s;
+}
+
+.effect h2 {
+    font-size: 23px;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 28px;
+}
+
+.effect p {
+    line-height: 32px;
+    font-size: 19px;
+    color: white;
+}
+
+a.read {
+    margin-top: 27px;
+    display: block;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+    transform: translateY(-2px);
+}
+
+section.hover-effect {
+    background: rgb(38, 70, 83);
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 93px;
+    position: relative;
+    margin-top: 67px;
+}
+
+.title h4 {
+    font-size: 20px;
+    color: orange;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.title > p {
+    font-size: 38px;
+    color: white;
+    max-width: 592px;
+    position: relative;
+    left: 28%;
+    line-height: 51px;
+    font-weight: 700;
+}
+
+.all-image-hover {
+    display: flex;
+    justify-content: center;
+}
+
+.full-image-hover {
+    margin-bottom: 65px;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 2px;
+    background: white;
+    bottom: -35px;
+    left: 49%;
+}
+
+.all-shedull {
+    background: white;
+    width: 100%;
+}
+
+.book {
+    padding: 162px 122px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Stocks {
+    max-width: 408px;
+    line-height: 32px;
+}
+
+.stocke-image {
+    max-width: 100px;
+    position: relative;
+    left: 142px;
+    margin-bottom: 47px;
+}
+
+.stocke-image img {
+    width: 100%;
+}
+
+img.celender {
+    width: 74%;
+}
+
+.Stocks h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: rgb(38, 70, 83);
+}
+
+.Stocks p {
+    font-size: 21px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    color: rgb(90, 103, 109);
+}
+
+.booka {
+    text-align: center;
+    padding: 19px 0px;
+    margin-bottom: 159px;
+    background: rgb(38, 70, 83);
+    width: 268px;
+    left: 40%;
+    position: relative;
+    border-radius: 30px;
+}
+
+.booka i {
+    color: orange;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+a.book-btn {
+    line-height: 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact {
+    background: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contact-form {
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    background: rgb(38, 70, 83);
+    margin: auto;
+    border-radius: 9px;
+}
+
+.contact-us {
+    padding: 98px 0px;
+    max-width: 600px;
+}
+
+.contact-page {
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+
+.contact-page h1 {
+    margin-bottom: 29px;
+    color: white;
+    font-size: 43px;
+    font-weight: 900;
+}
+
+.contact-location {
+    line-height: 30px;
+}
+
+.contact-page p {
+    color: rgb(183, 183, 183);
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.contact-location ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-location ul li {
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+
+.contact-location ul li i {
+    color: rgb(38, 70, 83);
+    background: orange;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 13px;
+    margin-right: 7px;
+}
+
+.contact-location ul li span {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contact-location ul li p {
+    color: white;
+    font-size: 19px;
+    margin-left: 37px;
+    font-weight: 500;
+}
+
+.informatiom {
+    margin-top: 79px;
+    background: white;
+    border-radius: 7px;
+    max-width: 600px;
+    max-height: 476px;
+}
+
+.information-text {
+    padding: 45px 44px;
+    max-width: 405px;
+}
+
+.information-text p {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: arial;
+}
+
+.information-text input[type="text"] {
+    width: 100%;
+    padding: 3px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.information-text input[type="email"] {
+    width: 100%;
+    padding: 3px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.information-text textarea {
+    width: 100%;
+    font-size: 18px;
+    padding: 6px 5px;
+    outline: none;
+}
+
+label {
+    background: rgb(38, 70, 83);
+    padding: 12px;
+    margin-top: 13px;
+    display: block;
+    width: 200px;
+    border-radius: 26px;
+    text-align: center;
+}
+
+label input[type="submit"] {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+label i {
+    margin-left: 4px;
+    font-size: 20px;
+    color: orange;
+}
+
+section.testimonial {
+    width: 100%;
+    background: white;
+}
+
+.testimonial-design {
+    margin-top: 64px;
+}
+
+.testimonial-design > p {
+    text-align: center;
+    color: orange;
+    margin-top: 111px;
+    font-size: 22px;
+    font-family: arial;
+    margin-bottom: 21px;
+}
+
+.testimonial-design h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(38, 70, 83);
+    font-family: arial;
+}
+
+.clients {
+    display: flex;
+    max-width: 1179px;
+    margin: auto auto 59px;
+    position: relative;
+}
+
+.card {
+    max-width: 392px;
+    margin: auto;
+    overflow: hidden;
+    padding-left: 74px;
+    background: white;
+}
+
+.card span {
+    color: rgb(215, 152, 35);
+    font-size: 16px;
+    margin-bottom: 29px;
+    display: block;
+}
+
+.card h3 {
+    font-size: 25px;
+    color: black;
+    font-family: arial;
+    margin-bottom: 30px;
+}
+
+.card p {
+    color: rgb(109, 94, 94);
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.user-name {
+    display: flex;
+}
+
+.image-users {
+    max-width: 78px;
+}
+
+.user-card {
+    margin-left: 18px;
+    margin-top: 2px;
+    line-height: 35px;
+}
+
+.image-users img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.user-card p {
+    color: rgb(98, 91, 91);
+    font-size: 14px;
+    font-family: arial;
+}
+
+.user-card h3 {
+    font-size: 17px;
+    color: rgb(80, 79, 79);
+    margin: 0px;
+}
+
+.clients::before {
+    content: "";
+    position: absolute;
+    left: 48%;
+    width: 38px;
+    height: 2px;
+    background: rgb(38, 70, 83);
+    top: 24px;
+}
+
+.card-bottom {
+    margin-top: 117px;
+}
+
+section.money-bussiness {
+    width: 100%;
+    background: white;
+}
+
+.bussiness {
+    display: flex;
+    background: rgb(232, 235, 237);
+    max-width: 1176px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.gow-bussiness {
+    margin-top: 78px;
+    max-width: 454px;
+}
+
+.gow-bussiness h2 {
+    color: rgb(164, 166, 167);
+    margin-bottom: 24px;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.gow-bussiness p {
+    font-size: 44px;
+    color: rgb(68, 68, 68);
+    margin-bottom: 68px;
+}
+
+.book-bnt {
+    margin-top: 148px;
+}
+
+.book-bnt a {
+    display: inline-block;
+    text-align: center;
+    background: white;
+    padding: 20px 58px;
+    margin-left: 6px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.book-bnt a:first-child {
+    background: rgb(38, 70, 83);
+    color: white;
+    border: 4px solid rgb(233, 196, 106);
+}
+
+.book-bnt a i:first-child {
+    color: rgb(215, 188, 106);
+    margin-right: 4px;
+}
+
+.book-bnt a span {
+    font-size: 18px;
+}
+
+a.btn-for-book i {
+    font-size: 16px;
+    color: rgb(38, 70, 83) !important;
+}
+
+a.btn-for-book {
+    background: rgb(233, 196, 106);
+}
+
+a.btn-for-book span {
+    color: black;
+    font-family: araal;
+}
+
+.footer {
+    width: 100%;
+    background: white;
+}
+
+.main-footer {
+    display: flex;
+    max-width: 1132px;
+    margin: 120px auto auto;
+}
+
+.canvas {
+    max-width: 307px;
+}
+
+.canvas h1 {
+    font-size: 30px;
+    margin-bottom: 26px;
+    color: rgb(38, 70, 83);
+}
+
+.canvas p {
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.social-link {
+    margin-bottom: 88px;
+    position: relative;
+}
+
+.social-link a {
+    width: 47px;
+    height: 47px;
+    background: rgb(225, 242, 225);
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+
+.social-link a i {
+    display: block;
+    color: rgb(131, 125, 125);
+    font-size: 23px;
+    line-height: 49px;
+    transition: all 0.5s ease 0s;
+}
+
+.social-link a:hover i:nth-child(1) {
+    transform: translateY(-70px);
+}
+
+.social-link a:hover i:nth-child(2) {
+    transform: translateY(-70px);
+    color: white;
+}
+
+.social-link a:hover {
+    background: rgb(20, 146, 238);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lora, serif;
+}
+
+menu {
+    width: 100%;
+}
+
+.menu-bar {
+    width: 100%;
+    background: rgb(238, 236, 236);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 61px;
+}
+
+.menu-item {
+    margin-right: 44px;
+}
+
+.logo h1 {
+    font-size: 32px;
+    color: black;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.mani-menu {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+    transition: all 0.5s ease 0s;
+}
+
+.mani-menu > li > a {
+    padding: 19px 11px;
+}
+
+.mani-menu > li > a:hover {
+    transform: scale(1.2);
+}
+
+.sub-menu {
+    position: relative;
+}
+
+.sub-menu:hover .sub-list {
+    opacity: 1;
+    top: 64px;
+    pointer-events: all;
+}
+
+.sub-list {
+    position: absolute;
+    background: rgb(170, 187, 170);
+    width: 200px;
+    line-height: 39px;
+    transition: all 0.5s ease 0s;
+    top: 134px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sub-list li a {
+    font-size: 22px;
+    color: black;
+    display: block;
+    transition: all 0.5s ease 0s;
+    padding: 2px 9px;
+}
+
+.sub-list li a:hover {
+    background: rgb(3, 49, 46);
+    color: black;
+}
+
+section.make-money {
+    width: 100%;
+}
+
+.main-logo {
+    display: flex;
+    background: url("hero-bg.png") center bottom / 100% no-repeat rgb(218, 224, 226);
+}
+
+.money-create {
+    margin-top: 65px;
+    margin-left: 69px;
+    max-width: 441px;
+}
+
+.text-money {
+    margin-bottom: 82px;
+}
+
+.text-money h1 {
+    margin-bottom: 56px;
+    color: rgb(56, 86, 98);
+    font-size: 62px;
+}
+
+.text-money p {
+    line-height: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+button.started {
+    outline: none;
+    border: none;
+    color: white;
+    padding: 14px 68px;
+    border-radius: 28px;
+    font-size: 23px;
+    background: rgb(38, 70, 83);
+}
+
+button.started i {
+    color: rgb(233, 196, 102);
+    margin-left: 25px;
+}
+
+.money-service {
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-image img {
+    width: 72%;
+    display: inherit;
+}
+
+.mobile-image {
+    margin-top: 168px;
+    margin-left: 152px;
+}
+
+.money-service ul {
+    line-height: 31px;
+}
+
+.money-service ul li {
+    color: black;
+    font-size: 17px;
+}
+
+.money-service ul li i {
+    margin-right: 13px;
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+    color: rgb(50, 100, 95);
+}
+
+.money-service ul li i::after {
+    content: "";
+    background: rgb(233, 196, 106);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -5px;
+    z-index: -1;
+    top: -6px;
+    border-radius: 50%;
+}
+
+.ratting {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background: white;
+    overflow: hidden;
+    margin-top: 75px;
+    display: flex;
+    margin-left: 175px;
+    justify-content: space-between;
+    margin-bottom: 54px;
+}
+
+.ratting-point {
+    max-width: 125px;
+}
+
+.content-rating {
+    max-width: 372px;
+    margin-top: 8px;
+    padding: 6px 42px;
+    line-height: 30px;
+}
+
+.lorem {
+    max-width: 568px;
+}
+
+.ratting-point h2 {
+    color: black;
+    font-size: 83px;
+    letter-spacing: 3px;
+    margin-bottom: 19px;
+}
+
+.ratting-point span {
+    color: orange;
+    letter-spacing: 1px;
+}
+
+.ratting-point p {
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(72, 47, 47);
+}
+
+.content-rating h3 {
+    font-size: 21px;
+    color: orange;
+    margin-bottom: 36px;
+}
+
+.content-rating p {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.lorem p {
+    padding-right: 122px;
+    line-height: 29px;
+    font-size: 18px;
+}
+
+.lorem {
+    max-width: 513px;
+    padding: 0px 12px;
+    margin-right: 53px;
+    position: relative;
+}
+
+.lorem::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 148px;
+    background: orange;
+    left: -2px;
+}
+
+.lorem h3 {
+    margin-top: 4px;
+    margin-left: 24px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.lorem h3::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 1px;
+    background: rgba(123, 119, 119, 0.92);
+    top: 12px;
+    left: -20px;
+}
+
+.image-hover {
+    position: relative;
+    margin-left: 40px;
+    max-width: 360px;
+}
+
+.sub-hover {
+    position: relative;
+    border: 1px solid beige;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.hover-image {
+    transition: all 0.5s ease 0s;
+}
+
+.sub-hover:hover .effect {
+    margin-top: 15px;
+}
+
+.sub-hover:hover .text-effect {
+    background: none;
+}
+
+.sub-hover:hover .effect h3::before {
+    background: white;
+}
+
+.sub-hover:hover a.read {
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+.hover-image img {
+    width: 100%;
+}
+
+.text-effect {
+    position: absolute;
+    top: 0px;
+    background: rgb(38, 70, 83);
+    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+.effect {
+    margin-top: 65px;
+    margin-left: 38px;
+    transition: all 0.5s ease 0s;
+}
+
+.effect h3 {
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    left: 19px;
+}
+
+.effect h3::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: rgba(120, 203, 236, 0.13);
+    border-radius: 50%;
+    z-index: -1;
+    left: -20px;
+    top: -6px;
+    transition: all 0.5s ease 0s;
+}
+
+.effect h2 {
+    font-size: 23px;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 28px;
+}
+
+.effect p {
+    line-height: 32px;
+    font-size: 19px;
+    color: white;
+}
+
+a.read {
+    margin-top: 27px;
+    display: block;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+    transform: translateY(-2px);
+}
+
+section.hover-effect {
+    background: rgb(38, 70, 83);
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 93px;
+    position: relative;
+    margin-top: 67px;
+}
+
+.title h4 {
+    font-size: 20px;
+    color: orange;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.title > p {
+    font-size: 38px;
+    color: white;
+    max-width: 592px;
+    position: relative;
+    left: 28%;
+    line-height: 51px;
+    font-weight: 700;
+}
+
+.all-image-hover {
+    display: flex;
+    justify-content: center;
+}
+
+.full-image-hover {
+    margin-bottom: 65px;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 2px;
+    background: white;
+    bottom: -35px;
+    left: 49%;
+}
+
+.all-shedull {
+    background: white;
+    width: 100%;
+}
+
+.book {
+    padding: 162px 122px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Stocks {
+    max-width: 408px;
+    line-height: 32px;
+}
+
+.stocke-image {
+    max-width: 100px;
+    position: relative;
+    left: 142px;
+    margin-bottom: 47px;
+}
+
+.stocke-image img {
+    width: 100%;
+}
+
+img.celender {
+    width: 74%;
+}
+
+.Stocks h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: rgb(38, 70, 83);
+}
+
+.Stocks p {
+    font-size: 21px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    color: rgb(90, 103, 109);
+}
+
+.booka {
+    text-align: center;
+    padding: 19px 0px;
+    margin-bottom: 159px;
+    background: rgb(38, 70, 83);
+    width: 268px;
+    left: 40%;
+    position: relative;
+    border-radius: 30px;
+}
+
+.booka i {
+    color: orange;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+a.book-btn {
+    line-height: 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact {
+    background: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contact-form {
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    background: rgb(38, 70, 83);
+    margin: auto;
+    border-radius: 9px;
+}
+
+.contact-us {
+    padding: 98px 0px;
+    max-width: 600px;
+}
+
+.contact-page {
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+
+.contact-page h1 {
+    margin-bottom: 29px;
+    color: white;
+    font-size: 43px;
+    font-weight: 900;
+}
+
+.contact-location {
+    line-height: 30px;
+}
+
+.contact-page p {
+    color: rgb(183, 183, 183);
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.contact-location ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-location ul li {
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+
+.contact-location ul li i {
+    color: rgb(38, 70, 83);
+    background: orange;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 13px;
+    margin-right: 7px;
+}
+
+.contact-location ul li span {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contact-location ul li p {
+    color: white;
+    font-size: 19px;
+    margin-left: 37px;
+    font-weight: 500;
+}
+
+.informatiom {
+    margin-top: 79px;
+    background: white;
+    border-radius: 7px;
+    max-width: 600px;
+    max-height: 476px;
+}
+
+.information-text {
+    padding: 45px 44px;
+    max-width: 405px;
+}
+
+.information-text p {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: arial;
+}
+
+.information-text input[type="text"] {
+    width: 100%;
+    padding: 3px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.information-text input[type="email"] {
+    width: 100%;
+    padding: 3px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.information-text textarea {
+    width: 100%;
+    font-size: 18px;
+    padding: 6px 5px;
+    outline: none;
+}
+
+label {
+    background: rgb(38, 70, 83);
+    padding: 12px;
+    margin-top: 13px;
+    display: block;
+    width: 200px;
+    border-radius: 26px;
+    text-align: center;
+}
+
+label input[type="submit"] {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+label i {
+    margin-left: 4px;
+    font-size: 20px;
+    color: orange;
+}
+
+section.testimonial {
+    width: 100%;
+    background: white;
+}
+
+.testimonial-design {
+    margin-top: 64px;
+}
+
+.testimonial-design > p {
+    text-align: center;
+    color: orange;
+    margin-top: 111px;
+    font-size: 22px;
+    font-family: arial;
+    margin-bottom: 21px;
+}
+
+.testimonial-design h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(38, 70, 83);
+    font-family: arial;
+}
+
+.clients {
+    display: flex;
+    max-width: 1179px;
+    margin: auto auto 59px;
+    position: relative;
+}
+
+.card {
+    max-width: 392px;
+    margin: auto;
+    overflow: hidden;
+    padding-left: 74px;
+    background: white;
+}
+
+.card span {
+    color: rgb(215, 152, 35);
+    font-size: 16px;
+    margin-bottom: 29px;
+    display: block;
+}
+
+.card h3 {
+    font-size: 25px;
+    color: black;
+    font-family: arial;
+    margin-bottom: 30px;
+}
+
+.card p {
+    color: rgb(109, 94, 94);
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.user-name {
+    display: flex;
+}
+
+.image-users {
+    max-width: 78px;
+}
+
+.user-card {
+    margin-left: 18px;
+    margin-top: 2px;
+    line-height: 35px;
+}
+
+.image-users img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.user-card p {
+    color: rgb(98, 91, 91);
+    font-size: 14px;
+    font-family: arial;
+}
+
+.user-card h3 {
+    font-size: 17px;
+    color: rgb(80, 79, 79);
+    margin: 0px;
+}
+
+.clients::before {
+    content: "";
+    position: absolute;
+    left: 48%;
+    width: 38px;
+    height: 2px;
+    background: rgb(38, 70, 83);
+    top: 24px;
+}
+
+.card-bottom {
+    margin-top: 117px;
+}
+
+section.money-bussiness {
+    width: 100%;
+    background: white;
+}
+
+.bussiness {
+    display: flex;
+    background: rgb(232, 235, 237);
+    max-width: 1176px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.gow-bussiness {
+    margin-top: 78px;
+    max-width: 454px;
+}
+
+.gow-bussiness h2 {
+    color: rgb(164, 166, 167);
+    margin-bottom: 24px;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.gow-bussiness p {
+    font-size: 44px;
+    color: rgb(68, 68, 68);
+    margin-bottom: 68px;
+}
+
+.book-bnt {
+    margin-top: 148px;
+}
+
+.book-bnt a {
+    display: inline-block;
+    text-align: center;
+    background: white;
+    padding: 20px 58px;
+    margin-left: 6px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.book-bnt a:first-child {
+    background: rgb(38, 70, 83);
+    color: white;
+    border: 4px solid rgb(233, 196, 106);
+}
+
+.book-bnt a i:first-child {
+    color: rgb(215, 188, 106);
+    margin-right: 4px;
+}
+
+.book-bnt a span {
+    font-size: 18px;
+}
+
+a.btn-for-book i {
+    font-size: 16px;
+    color: rgb(38, 70, 83) !important;
+}
+
+a.btn-for-book {
+    background: rgb(233, 196, 106);
+}
+
+a.btn-for-book span {
+    color: black;
+    font-family: araal;
+}
+
+.footer {
+    width: 100%;
+    background: white;
+}
+
+.main-footer {
+    display: flex;
+    max-width: 1132px;
+    margin: 120px auto auto;
+}
+
+.canvas {
+    max-width: 307px;
+}
+
+.canvas h1 {
+    font-size: 30px;
+    margin-bottom: 26px;
+    color: rgb(38, 70, 83);
+}
+
+.canvas p {
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.social-link {
+    margin-bottom: 88px;
+    position: relative;
+}
+
+.social-link a {
+    width: 47px;
+    height: 47px;
+    background: rgb(225, 242, 225);
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+
+.social-link a i {
+    display: block;
+    color: rgb(131, 125, 125);
+    font-size: 23px;
+    line-height: 49px;
+    transition: all 0.5s ease 0s;
+}
+
+.social-link a:hover i:nth-child(1) {
+    transform: translateY(-70px);
+}
+
+.social-link a:hover i:nth-child(2) {
+    transform: translateY(-70px);
+    color: white;
+}
+
+.social-link a:hover {
+    background: rgb(20, 146, 238);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lora, serif;
+}
+
+menu {
+    width: 100%;
+}
+
+.menu-bar {
+    width: 100%;
+    background: rgb(238, 236, 236);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 61px;
+}
+
+.menu-item {
+    margin-right: 44px;
+}
+
+.logo h1 {
+    font-size: 32px;
+    color: black;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.mani-menu {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+    transition: all 0.5s ease 0s;
+}
+
+.mani-menu > li > a {
+    padding: 19px 11px;
+}
+
+.mani-menu > li > a:hover {
+    transform: scale(1.2);
+}
+
+.sub-menu {
+    position: relative;
+}
+
+.sub-menu:hover .sub-list {
+    opacity: 1;
+    top: 64px;
+    pointer-events: all;
+}
+
+.sub-list {
+    position: absolute;
+    background: rgb(170, 187, 170);
+    width: 200px;
+    line-height: 39px;
+    transition: all 0.5s ease 0s;
+    top: 134px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sub-list li a {
+    font-size: 22px;
+    color: black;
+    display: block;
+    transition: all 0.5s ease 0s;
+    padding: 2px 9px;
+}
+
+.sub-list li a:hover {
+    background: rgb(3, 49, 46);
+    color: black;
+}
+
+section.make-money {
+    width: 100%;
+}
+
+.main-logo {
+    display: flex;
+    background: url("hero-bg.png") center bottom / 100% no-repeat rgb(218, 224, 226);
+}
+
+.money-create {
+    margin-top: 65px;
+    margin-left: 69px;
+    max-width: 441px;
+}
+
+.text-money {
+    margin-bottom: 82px;
+}
+
+.text-money h1 {
+    margin-bottom: 56px;
+    color: rgb(56, 86, 98);
+    font-size: 62px;
+}
+
+.text-money p {
+    line-height: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+button.started {
+    outline: none;
+    border: none;
+    color: white;
+    padding: 14px 68px;
+    border-radius: 28px;
+    font-size: 23px;
+    background: rgb(38, 70, 83);
+}
+
+button.started i {
+    color: rgb(233, 196, 102);
+    margin-left: 25px;
+}
+
+.money-service {
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-image img {
+    width: 72%;
+    display: inherit;
+}
+
+.mobile-image {
+    margin-top: 168px;
+    margin-left: 152px;
+}
+
+.money-service ul {
+    line-height: 31px;
+}
+
+.money-service ul li {
+    color: black;
+    font-size: 17px;
+}
+
+.money-service ul li i {
+    margin-right: 13px;
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+    color: rgb(50, 100, 95);
+}
+
+.money-service ul li i::after {
+    content: "";
+    background: rgb(233, 196, 106);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -5px;
+    z-index: -1;
+    top: -6px;
+    border-radius: 50%;
+}
+
+.ratting {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background: white;
+    overflow: hidden;
+    margin-top: 75px;
+    display: flex;
+    margin-left: 175px;
+    justify-content: space-between;
+    margin-bottom: 54px;
+}
+
+.ratting-point {
+    max-width: 125px;
+}
+
+.content-rating {
+    max-width: 372px;
+    margin-top: 8px;
+    padding: 6px 42px;
+    line-height: 30px;
+}
+
+.lorem {
+    max-width: 568px;
+}
+
+.ratting-point h2 {
+    color: black;
+    font-size: 83px;
+    letter-spacing: 3px;
+    margin-bottom: 19px;
+}
+
+.ratting-point span {
+    color: orange;
+    letter-spacing: 1px;
+}
+
+.ratting-point p {
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(72, 47, 47);
+}
+
+.content-rating h3 {
+    font-size: 21px;
+    color: orange;
+    margin-bottom: 36px;
+}
+
+.content-rating p {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.lorem p {
+    padding-right: 122px;
+    line-height: 29px;
+    font-size: 18px;
+}
+
+.lorem {
+    max-width: 513px;
+    padding: 0px 12px;
+    margin-right: 53px;
+    position: relative;
+}
+
+.lorem::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 148px;
+    background: orange;
+    left: -2px;
+}
+
+.lorem h3 {
+    margin-top: 4px;
+    margin-left: 24px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.lorem h3::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 1px;
+    background: rgba(123, 119, 119, 0.92);
+    top: 12px;
+    left: -20px;
+}
+
+.image-hover {
+    position: relative;
+    margin-left: 40px;
+    max-width: 360px;
+}
+
+.sub-hover {
+    position: relative;
+    border: 1px solid beige;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.hover-image {
+    transition: all 0.5s ease 0s;
+}
+
+.sub-hover:hover .effect {
+    margin-top: 15px;
+}
+
+.sub-hover:hover .text-effect {
+    background: none;
+}
+
+.sub-hover:hover .effect h3::before {
+    background: white;
+}
+
+.sub-hover:hover a.read {
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+.hover-image img {
+    width: 100%;
+}
+
+.text-effect {
+    position: absolute;
+    top: 0px;
+    background: rgb(38, 70, 83);
+    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+.effect {
+    margin-top: 65px;
+    margin-left: 38px;
+    transition: all 0.5s ease 0s;
+}
+
+.effect h3 {
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    left: 19px;
+}
+
+.effect h3::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: rgba(120, 203, 236, 0.13);
+    border-radius: 50%;
+    z-index: -1;
+    left: -20px;
+    top: -6px;
+    transition: all 0.5s ease 0s;
+}
+
+.effect h2 {
+    font-size: 23px;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 28px;
+}
+
+.effect p {
+    line-height: 32px;
+    font-size: 19px;
+    color: white;
+}
+
+a.read {
+    margin-top: 27px;
+    display: block;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+    transform: translateY(-2px);
+}
+
+section.hover-effect {
+    background: rgb(38, 70, 83);
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 93px;
+    position: relative;
+    margin-top: 67px;
+}
+
+.title h4 {
+    font-size: 20px;
+    color: orange;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.title > p {
+    font-size: 38px;
+    color: white;
+    max-width: 592px;
+    position: relative;
+    left: 28%;
+    line-height: 51px;
+    font-weight: 700;
+}
+
+.all-image-hover {
+    display: flex;
+    justify-content: center;
+}
+
+.full-image-hover {
+    margin-bottom: 65px;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 2px;
+    background: white;
+    bottom: -35px;
+    left: 49%;
+}
+
+.all-shedull {
+    background: white;
+    width: 100%;
+}
+
+.book {
+    padding: 162px 122px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Stocks {
+    max-width: 408px;
+    line-height: 32px;
+}
+
+.stocke-image {
+    max-width: 100px;
+    position: relative;
+    left: 142px;
+    margin-bottom: 47px;
+}
+
+.stocke-image img {
+    width: 100%;
+}
+
+img.celender {
+    width: 74%;
+}
+
+.Stocks h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: rgb(38, 70, 83);
+}
+
+.Stocks p {
+    font-size: 21px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    color: rgb(90, 103, 109);
+}
+
+.booka {
+    text-align: center;
+    padding: 19px 0px;
+    margin-bottom: 159px;
+    background: rgb(38, 70, 83);
+    width: 268px;
+    left: 40%;
+    position: relative;
+    border-radius: 30px;
+}
+
+.booka i {
+    color: orange;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+a.book-btn {
+    line-height: 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact {
+    background: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contact-form {
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    background: rgb(38, 70, 83);
+    margin: auto;
+    border-radius: 9px;
+}
+
+.contact-us {
+    padding: 98px 0px;
+    max-width: 600px;
+}
+
+.contact-page {
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+
+.contact-page h1 {
+    margin-bottom: 29px;
+    color: white;
+    font-size: 43px;
+    font-weight: 900;
+}
+
+.contact-location {
+    line-height: 30px;
+}
+
+.contact-page p {
+    color: rgb(183, 183, 183);
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.contact-location ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-location ul li {
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+
+.contact-location ul li i {
+    color: rgb(38, 70, 83);
+    background: orange;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 13px;
+    margin-right: 7px;
+}
+
+.contact-location ul li span {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contact-location ul li p {
+    color: white;
+    font-size: 19px;
+    margin-left: 37px;
+    font-weight: 500;
+}
+
+.informatiom {
+    margin-top: 79px;
+    background: white;
+    border-radius: 7px;
+    max-width: 600px;
+    max-height: 476px;
+}
+
+.information-text {
+    padding: 45px 44px;
+    max-width: 405px;
+}
+
+.information-text p {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: arial;
+}
+
+.information-text input[type="text"] {
+    width: 100%;
+    padding: 3px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.information-text input[type="email"] {
+    width: 100%;
+    padding: 3px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.information-text textarea {
+    width: 100%;
+    font-size: 18px;
+    padding: 6px 5px;
+    outline: none;
+}
+
+label {
+    background: rgb(38, 70, 83);
+    padding: 12px;
+    margin-top: 13px;
+    display: block;
+    width: 200px;
+    border-radius: 26px;
+    text-align: center;
+}
+
+label input[type="submit"] {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+label i {
+    margin-left: 4px;
+    font-size: 20px;
+    color: orange;
+}
+
+section.testimonial {
+    width: 100%;
+    background: white;
+}
+
+.testimonial-design {
+    margin-top: 64px;
+}
+
+.testimonial-design > p {
+    text-align: center;
+    color: orange;
+    margin-top: 111px;
+    font-size: 22px;
+    font-family: arial;
+    margin-bottom: 21px;
+}
+
+.testimonial-design h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(38, 70, 83);
+    font-family: arial;
+}
+
+.clients {
+    display: flex;
+    max-width: 1179px;
+    margin: auto auto 59px;
+    position: relative;
+}
+
+.card {
+    max-width: 392px;
+    margin: auto;
+    overflow: hidden;
+    padding-left: 74px;
+    background: white;
+}
+
+.card span {
+    color: rgb(215, 152, 35);
+    font-size: 16px;
+    margin-bottom: 29px;
+    display: block;
+}
+
+.card h3 {
+    font-size: 25px;
+    color: black;
+    font-family: arial;
+    margin-bottom: 30px;
+}
+
+.card p {
+    color: rgb(109, 94, 94);
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.user-name {
+    display: flex;
+}
+
+.image-users {
+    max-width: 78px;
+}
+
+.user-card {
+    margin-left: 18px;
+    margin-top: 2px;
+    line-height: 35px;
+}
+
+.image-users img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.user-card p {
+    color: rgb(98, 91, 91);
+    font-size: 14px;
+    font-family: arial;
+}
+
+.user-card h3 {
+    font-size: 17px;
+    color: rgb(80, 79, 79);
+    margin: 0px;
+}
+
+.clients::before {
+    content: "";
+    position: absolute;
+    left: 48%;
+    width: 38px;
+    height: 2px;
+    background: rgb(38, 70, 83);
+    top: 24px;
+}
+
+.card-bottom {
+    margin-top: 117px;
+}
+
+section.money-bussiness {
+    width: 100%;
+    background: white;
+}
+
+.bussiness {
+    display: flex;
+    background: rgb(232, 235, 237);
+    max-width: 1176px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.gow-bussiness {
+    margin-top: 78px;
+    max-width: 454px;
+}
+
+.gow-bussiness h2 {
+    color: rgb(164, 166, 167);
+    margin-bottom: 24px;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.gow-bussiness p {
+    font-size: 44px;
+    color: rgb(68, 68, 68);
+    margin-bottom: 68px;
+}
+
+.book-bnt {
+    margin-top: 148px;
+}
+
+.book-bnt a {
+    display: inline-block;
+    text-align: center;
+    background: white;
+    padding: 20px 58px;
+    margin-left: 6px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.book-bnt a:first-child {
+    background: rgb(38, 70, 83);
+    color: white;
+    border: 4px solid rgb(233, 196, 106);
+}
+
+.book-bnt a i:first-child {
+    color: rgb(215, 188, 106);
+    margin-right: 4px;
+}
+
+.book-bnt a span {
+    font-size: 18px;
+}
+
+a.btn-for-book i {
+    font-size: 16px;
+    color: rgb(38, 70, 83) !important;
+}
+
+a.btn-for-book {
+    background: rgb(233, 196, 106);
+}
+
+a.btn-for-book span {
+    color: black;
+    font-family: araal;
+}
+
+.footer {
+    width: 100%;
+    background: white;
+}
+
+.main-footer {
+    display: flex;
+    max-width: 1132px;
+    margin: 120px auto auto;
+}
+
+.canvas {
+    max-width: 307px;
+}
+
+.canvas h1 {
+    font-size: 30px;
+    margin-bottom: 26px;
+    color: rgb(38, 70, 83);
+}
+
+.canvas p {
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.social-link {
+    margin-bottom: 88px;
+    position: relative;
+}
+
+.social-link a {
+    width: 47px;
+    height: 47px;
+    background: rgb(225, 242, 225);
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+
+.social-link a i {
+    display: block;
+    color: rgb(131, 125, 125);
+    font-size: 23px;
+    line-height: 49px;
+    transition: all 0.5s ease 0s;
+}
+
+.social-link a:hover i:nth-child(1) {
+    transform: translateY(-70px);
+}
+
+.social-link a:hover i:nth-child(2) {
+    transform: translateY(-70px);
+    color: white;
+}
+
+.social-link a:hover {
+    background: rgb(20, 146, 238);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lora, serif;
+}
+
+menu {
+    width: 100%;
+}
+
+.menu-bar {
+    width: 100%;
+    background: rgb(238, 236, 236);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 61px;
+}
+
+.menu-item {
+    margin-right: 44px;
+}
+
+.logo h1 {
+    font-size: 32px;
+    color: black;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.mani-menu {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+    transition: all 0.5s ease 0s;
+}
+
+.mani-menu > li > a {
+    padding: 19px 11px;
+}
+
+.mani-menu > li > a:hover {
+    transform: scale(1.2);
+}
+
+.sub-menu {
+    position: relative;
+}
+
+.sub-menu:hover .sub-list {
+    opacity: 1;
+    top: 64px;
+    pointer-events: all;
+}
+
+.sub-list {
+    position: absolute;
+    background: rgb(170, 187, 170);
+    width: 200px;
+    line-height: 39px;
+    transition: all 0.5s ease 0s;
+    top: 134px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sub-list li a {
+    font-size: 22px;
+    color: black;
+    display: block;
+    transition: all 0.5s ease 0s;
+    padding: 2px 9px;
+}
+
+.sub-list li a:hover {
+    background: rgb(3, 49, 46);
+    color: black;
+}
+
+section.make-money {
+    width: 100%;
+}
+
+.main-logo {
+    display: flex;
+    background: url("hero-bg.png") center bottom / 100% no-repeat rgb(218, 224, 226);
+}
+
+.money-create {
+    margin-top: 65px;
+    margin-left: 69px;
+    max-width: 441px;
+}
+
+.text-money {
+    margin-bottom: 82px;
+}
+
+.text-money h1 {
+    margin-bottom: 56px;
+    color: rgb(56, 86, 98);
+    font-size: 62px;
+}
+
+.text-money p {
+    line-height: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+button.started {
+    outline: none;
+    border: none;
+    color: white;
+    padding: 14px 68px;
+    border-radius: 28px;
+    font-size: 23px;
+    background: rgb(38, 70, 83);
+}
+
+button.started i {
+    color: rgb(233, 196, 102);
+    margin-left: 25px;
+}
+
+.money-service {
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-image img {
+    width: 72%;
+    display: inherit;
+}
+
+.mobile-image {
+    margin-top: 168px;
+    margin-left: 152px;
+}
+
+.money-service ul {
+    line-height: 31px;
+}
+
+.money-service ul li {
+    color: black;
+    font-size: 17px;
+}
+
+.money-service ul li i {
+    margin-right: 13px;
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+    color: rgb(50, 100, 95);
+}
+
+.money-service ul li i::after {
+    content: "";
+    background: rgb(233, 196, 106);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -5px;
+    z-index: -1;
+    top: -6px;
+    border-radius: 50%;
+}
+
+.ratting {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background: white;
+    overflow: hidden;
+    margin-top: 75px;
+    display: flex;
+    margin-left: 175px;
+    justify-content: space-between;
+    margin-bottom: 54px;
+}
+
+.ratting-point {
+    max-width: 125px;
+}
+
+.content-rating {
+    max-width: 372px;
+    margin-top: 8px;
+    padding: 6px 42px;
+    line-height: 30px;
+}
+
+.lorem {
+    max-width: 568px;
+}
+
+.ratting-point h2 {
+    color: black;
+    font-size: 83px;
+    letter-spacing: 3px;
+    margin-bottom: 19px;
+}
+
+.ratting-point span {
+    color: orange;
+    letter-spacing: 1px;
+}
+
+.ratting-point p {
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(72, 47, 47);
+}
+
+.content-rating h3 {
+    font-size: 21px;
+    color: orange;
+    margin-bottom: 36px;
+}
+
+.content-rating p {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.lorem p {
+    padding-right: 122px;
+    line-height: 29px;
+    font-size: 18px;
+}
+
+.lorem {
+    max-width: 513px;
+    padding: 0px 12px;
+    margin-right: 53px;
+    position: relative;
+}
+
+.lorem::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 148px;
+    background: orange;
+    left: -2px;
+}
+
+.lorem h3 {
+    margin-top: 4px;
+    margin-left: 24px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.lorem h3::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 1px;
+    background: rgba(123, 119, 119, 0.92);
+    top: 12px;
+    left: -20px;
+}
+
+.image-hover {
+    position: relative;
+    margin-left: 40px;
+    max-width: 360px;
+}
+
+.sub-hover {
+    position: relative;
+    border: 1px solid beige;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.hover-image {
+    transition: all 0.5s ease 0s;
+}
+
+.sub-hover:hover .effect {
+    margin-top: 15px;
+}
+
+.sub-hover:hover .text-effect {
+    background: none;
+}
+
+.sub-hover:hover .effect h3::before {
+    background: white;
+}
+
+.sub-hover:hover a.read {
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+.hover-image img {
+    width: 100%;
+}
+
+.text-effect {
+    position: absolute;
+    top: 0px;
+    background: rgb(38, 70, 83);
+    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+.effect {
+    margin-top: 65px;
+    margin-left: 38px;
+    transition: all 0.5s ease 0s;
+}
+
+.effect h3 {
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    left: 19px;
+}
+
+.effect h3::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: rgba(120, 203, 236, 0.13);
+    border-radius: 50%;
+    z-index: -1;
+    left: -20px;
+    top: -6px;
+    transition: all 0.5s ease 0s;
+}
+
+.effect h2 {
+    font-size: 23px;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 28px;
+}
+
+.effect p {
+    line-height: 32px;
+    font-size: 19px;
+    color: white;
+}
+
+a.read {
+    margin-top: 27px;
+    display: block;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+    transform: translateY(-2px);
+}
+
+section.hover-effect {
+    background: rgb(38, 70, 83);
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 93px;
+    position: relative;
+    margin-top: 67px;
+}
+
+.title h4 {
+    font-size: 20px;
+    color: orange;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.title > p {
+    font-size: 38px;
+    color: white;
+    max-width: 592px;
+    position: relative;
+    left: 28%;
+    line-height: 51px;
+    font-weight: 700;
+}
+
+.all-image-hover {
+    display: flex;
+    justify-content: center;
+}
+
+.full-image-hover {
+    margin-bottom: 65px;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 2px;
+    background: white;
+    bottom: -35px;
+    left: 49%;
+}
+
+.all-shedull {
+    background: white;
+    width: 100%;
+}
+
+.book {
+    padding: 162px 122px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Stocks {
+    max-width: 408px;
+    line-height: 32px;
+}
+
+.stocke-image {
+    max-width: 100px;
+    position: relative;
+    left: 142px;
+    margin-bottom: 47px;
+}
+
+.stocke-image img {
+    width: 100%;
+}
+
+img.celender {
+    width: 74%;
+}
+
+.Stocks h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: rgb(38, 70, 83);
+}
+
+.Stocks p {
+    font-size: 21px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    color: rgb(90, 103, 109);
+}
+
+.booka {
+    text-align: center;
+    padding: 19px 0px;
+    margin-bottom: 159px;
+    background: rgb(38, 70, 83);
+    width: 268px;
+    left: 40%;
+    position: relative;
+    border-radius: 30px;
+}
+
+.booka i {
+    color: orange;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+a.book-btn {
+    line-height: 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact {
+    background: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contact-form {
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    background: rgb(38, 70, 83);
+    margin: auto;
+    border-radius: 9px;
+}
+
+.contact-us {
+    padding: 98px 0px;
+    max-width: 600px;
+}
+
+.contact-page {
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+
+.contact-page h1 {
+    margin-bottom: 29px;
+    color: white;
+    font-size: 43px;
+    font-weight: 900;
+}
+
+.contact-location {
+    line-height: 30px;
+}
+
+.contact-page p {
+    color: rgb(183, 183, 183);
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.contact-location ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-location ul li {
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+
+.contact-location ul li i {
+    color: rgb(38, 70, 83);
+    background: orange;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 13px;
+    margin-right: 7px;
+}
+
+.contact-location ul li span {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contact-location ul li p {
+    color: white;
+    font-size: 19px;
+    margin-left: 37px;
+    font-weight: 500;
+}
+
+.informatiom {
+    margin-top: 79px;
+    background: white;
+    border-radius: 7px;
+    max-width: 600px;
+    max-height: 476px;
+}
+
+.information-text {
+    padding: 45px 44px;
+    max-width: 405px;
+}
+
+.information-text p {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: arial;
+}
+
+.information-text input[type="text"] {
+    width: 100%;
+    padding: 3px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.information-text input[type="email"] {
+    width: 100%;
+    padding: 3px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.information-text textarea {
+    width: 100%;
+    font-size: 18px;
+    padding: 6px 5px;
+    outline: none;
+}
+
+label {
+    background: rgb(38, 70, 83);
+    padding: 12px;
+    margin-top: 13px;
+    display: block;
+    width: 200px;
+    border-radius: 26px;
+    text-align: center;
+}
+
+label input[type="submit"] {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+label i {
+    margin-left: 4px;
+    font-size: 20px;
+    color: orange;
+}
+
+section.testimonial {
+    width: 100%;
+    background: white;
+}
+
+.testimonial-design {
+    margin-top: 64px;
+}
+
+.testimonial-design > p {
+    text-align: center;
+    color: orange;
+    margin-top: 111px;
+    font-size: 22px;
+    font-family: arial;
+    margin-bottom: 21px;
+}
+
+.testimonial-design h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(38, 70, 83);
+    font-family: arial;
+}
+
+.clients {
+    display: flex;
+    max-width: 1179px;
+    margin: auto auto 59px;
+    position: relative;
+}
+
+.card {
+    max-width: 392px;
+    margin: auto;
+    overflow: hidden;
+    padding-left: 74px;
+    background: white;
+}
+
+.card span {
+    color: rgb(215, 152, 35);
+    font-size: 16px;
+    margin-bottom: 29px;
+    display: block;
+}
+
+.card h3 {
+    font-size: 25px;
+    color: black;
+    font-family: arial;
+    margin-bottom: 30px;
+}
+
+.card p {
+    color: rgb(109, 94, 94);
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.user-name {
+    display: flex;
+}
+
+.image-users {
+    max-width: 78px;
+}
+
+.user-card {
+    margin-left: 18px;
+    margin-top: 2px;
+    line-height: 35px;
+}
+
+.image-users img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.user-card p {
+    color: rgb(98, 91, 91);
+    font-size: 14px;
+    font-family: arial;
+}
+
+.user-card h3 {
+    font-size: 17px;
+    color: rgb(80, 79, 79);
+    margin: 0px;
+}
+
+.clients::before {
+    content: "";
+    position: absolute;
+    left: 48%;
+    width: 38px;
+    height: 2px;
+    background: rgb(38, 70, 83);
+    top: 24px;
+}
+
+.card-bottom {
+    margin-top: 117px;
+}
+
+section.money-bussiness {
+    width: 100%;
+    background: white;
+}
+
+.bussiness {
+    display: flex;
+    background: rgb(232, 235, 237);
+    max-width: 1176px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.gow-bussiness {
+    margin-top: 78px;
+    max-width: 454px;
+}
+
+.gow-bussiness h2 {
+    color: rgb(164, 166, 167);
+    margin-bottom: 24px;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.gow-bussiness p {
+    font-size: 44px;
+    color: rgb(68, 68, 68);
+    margin-bottom: 68px;
+}
+
+.book-bnt {
+    margin-top: 148px;
+}
+
+.book-bnt a {
+    display: inline-block;
+    text-align: center;
+    background: white;
+    padding: 20px 58px;
+    margin-left: 6px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.book-bnt a:first-child {
+    background: rgb(38, 70, 83);
+    color: white;
+    border: 4px solid rgb(233, 196, 106);
+}
+
+.book-bnt a i:first-child {
+    color: rgb(215, 188, 106);
+    margin-right: 4px;
+}
+
+.book-bnt a span {
+    font-size: 18px;
+}
+
+a.btn-for-book i {
+    font-size: 16px;
+    color: rgb(38, 70, 83) !important;
+}
+
+a.btn-for-book {
+    background: rgb(233, 196, 106);
+}
+
+a.btn-for-book span {
+    color: black;
+    font-family: araal;
+}
+
+.footer {
+    width: 100%;
+    background: white;
+}
+
+.main-footer {
+    display: flex;
+    max-width: 1132px;
+    margin: 120px auto auto;
+}
+
+.canvas {
+    max-width: 307px;
+}
+
+.canvas h1 {
+    font-size: 30px;
+    margin-bottom: 26px;
+    color: rgb(38, 70, 83);
+}
+
+.canvas p {
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.social-link {
+    margin-bottom: 88px;
+    position: relative;
+}
+
+.social-link a {
+    width: 47px;
+    height: 47px;
+    background: rgb(225, 242, 225);
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+
+.social-link a i {
+    display: block;
+    color: rgb(131, 125, 125);
+    font-size: 23px;
+    line-height: 49px;
+    transition: all 0.5s ease 0s;
+}
+
+.social-link a:hover i:nth-child(1) {
+    transform: translateY(-70px);
+}
+
+.social-link a:hover i:nth-child(2) {
+    transform: translateY(-70px);
+    color: white;
+}
+
+.social-link a:hover {
+    background: rgb(20, 146, 238);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lora, serif;
+}
+
+menu {
+    width: 100%;
+}
+
+.menu-bar {
+    width: 100%;
+    background: rgb(238, 236, 236);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 61px;
+}
+
+.menu-item {
+    margin-right: 44px;
+}
+
+.logo h1 {
+    font-size: 32px;
+    color: black;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.mani-menu {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+    transition: all 0.5s ease 0s;
+}
+
+.mani-menu > li > a {
+    padding: 19px 11px;
+}
+
+.mani-menu > li > a:hover {
+    transform: scale(1.2);
+}
+
+.sub-menu {
+    position: relative;
+}
+
+.sub-menu:hover .sub-list {
+    opacity: 1;
+    top: 64px;
+    pointer-events: all;
+}
+
+.sub-list {
+    position: absolute;
+    background: rgb(170, 187, 170);
+    width: 200px;
+    line-height: 39px;
+    transition: all 0.5s ease 0s;
+    top: 134px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sub-list li a {
+    font-size: 22px;
+    color: black;
+    display: block;
+    transition: all 0.5s ease 0s;
+    padding: 2px 9px;
+}
+
+.sub-list li a:hover {
+    background: rgb(3, 49, 46);
+    color: black;
+}
+
+section.make-money {
+    width: 100%;
+}
+
+.main-logo {
+    display: flex;
+    background: url("hero-bg.png") center bottom / 100% no-repeat rgb(218, 224, 226);
+}
+
+.money-create {
+    margin-top: 65px;
+    margin-left: 69px;
+    max-width: 441px;
+}
+
+.text-money {
+    margin-bottom: 82px;
+}
+
+.text-money h1 {
+    margin-bottom: 56px;
+    color: rgb(56, 86, 98);
+    font-size: 62px;
+}
+
+.text-money p {
+    line-height: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+button.started {
+    outline: none;
+    border: none;
+    color: white;
+    padding: 14px 68px;
+    border-radius: 28px;
+    font-size: 23px;
+    background: rgb(38, 70, 83);
+}
+
+button.started i {
+    color: rgb(233, 196, 102);
+    margin-left: 25px;
+}
+
+.money-service {
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+
+.mobile-image img {
+    width: 72%;
+    display: inherit;
+    margin-top: 64px;
+}
+
+.mobile-image {
+    margin-top: 168px;
+    margin-left: 152px;
+}
+
+.money-service ul {
+    line-height: 31px;
+}
+
+.money-service ul li {
+    color: black;
+    font-size: 17px;
+}
+
+.money-service ul li i {
+    margin-right: 13px;
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+    color: rgb(50, 100, 95);
+}
+
+.money-service ul li i::after {
+    content: "";
+    background: rgb(233, 196, 106);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -5px;
+    z-index: -1;
+    top: -3px;
+    border-radius: 50%;
+    margin-left: -18px;
+}
+
+.ratting {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background: white;
+    overflow: hidden;
+    margin-top: 75px;
+    display: flex;
+    margin-left: 175px;
+    justify-content: space-between;
+    margin-bottom: 54px;
+}
+
+.ratting-point {
+    max-width: 125px;
+}
+
+.content-rating {
+    max-width: 372px;
+    margin-top: 8px;
+    padding: 6px 42px;
+    line-height: 30px;
+}
+
+.lorem {
+    max-width: 568px;
+}
+
+.ratting-point h2 {
+    color: black;
+    font-size: 83px;
+    letter-spacing: 3px;
+    margin-bottom: 19px;
+}
+
+.ratting-point span {
+    color: orange;
+    letter-spacing: 1px;
+}
+
+.ratting-point p {
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(72, 47, 47);
+}
+
+.content-rating h3 {
+    font-size: 21px;
+    color: orange;
+    margin-bottom: 36px;
+}
+
+.content-rating p {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.lorem p {
+    padding-right: 122px;
+    line-height: 29px;
+    font-size: 18px;
+}
+
+.lorem {
+    max-width: 513px;
+    padding: 0px 12px;
+    margin-right: 53px;
+    position: relative;
+}
+
+.lorem::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 148px;
+    background: orange;
+    left: -2px;
+}
+
+.lorem h3 {
+    margin-top: 4px;
+    margin-left: 24px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.lorem h3::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 1px;
+    background: rgba(123, 119, 119, 0.92);
+    top: 12px;
+    left: -20px;
+}
+
+.image-hover {
+    position: relative;
+    margin-left: 40px;
+    max-width: 360px;
+}
+
+.sub-hover {
+    position: relative;
+    border: 1px solid beige;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.hover-image {
+    transition: all 0.5s ease 0s;
+}
+
+.sub-hover:hover .effect {
+    margin-top: 15px;
+}
+
+.sub-hover:hover .text-effect {
+    background: none;
+}
+
+.sub-hover:hover .effect h3::before {
+    background: white;
+}
+
+.sub-hover:hover a.read {
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+.hover-image img {
+    width: 100%;
+}
+
+.text-effect {
+    position: absolute;
+    top: 0px;
+    background: rgb(38, 70, 83);
+    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+.effect {
+    margin-top: 65px;
+    margin-left: 38px;
+    transition: all 0.5s ease 0s;
+}
+
+.effect h3 {
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    left: 19px;
+}
+
+.effect h3::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: rgba(120, 203, 236, 0.13);
+    border-radius: 50%;
+    z-index: -1;
+    left: -20px;
+    top: -6px;
+    transition: all 0.5s ease 0s;
+}
+
+.effect h2 {
+    font-size: 23px;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 28px;
+}
+
+.effect p {
+    line-height: 32px;
+    font-size: 19px;
+    color: white;
+}
+
+a.read {
+    margin-top: 27px;
+    display: block;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+    transform: translateY(-2px);
+}
+
+section.hover-effect {
+    background: rgb(38, 70, 83);
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 93px;
+    position: relative;
+    margin-top: 67px;
+}
+
+.title h4 {
+    font-size: 20px;
+    color: orange;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.title > p {
+    font-size: 38px;
+    color: white;
+    max-width: 592px;
+    position: relative;
+    left: 28%;
+    line-height: 51px;
+    font-weight: 700;
+}
+
+.all-image-hover {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.full-image-hover {
+    margin-bottom: 65px;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 2px;
+    background: white;
+    bottom: -35px;
+    left: 49%;
+}
+
+.all-shedull {
+    background: white;
+    width: 100%;
+}
+
+.book {
+    padding: 162px 122px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Stocks {
+    max-width: 408px;
+    line-height: 32px;
+}
+
+.stocke-image {
+    max-width: 100px;
+    position: relative;
+    left: 142px;
+    margin-bottom: 47px;
+}
+
+.stocke-image img {
+    width: 100%;
+}
+
+img.celender {
+    width: 74%;
+}
+
+.Stocks h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: rgb(38, 70, 83);
+}
+
+.Stocks p {
+    font-size: 21px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    color: rgb(90, 103, 109);
+}
+
+.booka {
+    text-align: center;
+    padding: 19px 0px;
+    margin-bottom: 159px;
+    background: rgb(38, 70, 83);
+    width: 268px;
+    left: 40%;
+    position: relative;
+    border-radius: 30px;
+}
+
+.booka i {
+    color: orange;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+a.book-btn {
+    line-height: 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact {
+    background: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contact-form {
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    background: rgb(38, 70, 83);
+    margin: auto;
+    border-radius: 9px;
+}
+
+.contact-us {
+    padding: 98px 0px;
+    max-width: 600px;
+}
+
+.contact-page {
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+
+.contact-page h1 {
+    margin-bottom: 29px;
+    color: white;
+    font-size: 43px;
+    font-weight: 900;
+}
+
+.contact-location {
+    line-height: 30px;
+}
+
+.contact-page p {
+    color: rgb(183, 183, 183);
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.contact-location ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-location ul li {
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+
+.contact-location ul li i {
+    color: rgb(38, 70, 83);
+    background: orange;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 13px;
+    margin-right: 7px;
+}
+
+.contact-location ul li span {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contact-location ul li p {
+    color: white;
+    font-size: 19px;
+    margin-left: 37px;
+    font-weight: 500;
+}
+
+.informatiom {
+    margin-top: 79px;
+    background: white;
+    border-radius: 7px;
+    max-width: 600px;
+    max-height: 476px;
+}
+
+.information-text {
+    padding: 45px 44px;
+    max-width: 405px;
+}
+
+.information-text p {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: arial;
+}
+
+.information-text input[type="text"] {
+    width: 100%;
+    padding: 3px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.information-text input[type="email"] {
+    width: 100%;
+    padding: 3px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.information-text textarea {
+    width: 100%;
+    font-size: 18px;
+    padding: 6px 5px;
+    outline: none;
+}
+
+label {
+    background: rgb(38, 70, 83);
+    padding: 12px;
+    margin-top: 13px;
+    display: block;
+    width: 200px;
+    border-radius: 26px;
+    text-align: center;
+}
+
+label input[type="submit"] {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+label i {
+    margin-left: 4px;
+    font-size: 20px;
+    color: orange;
+}
+
+section.testimonial {
+    width: 100%;
+    background: white;
+}
+
+.testimonial-design {
+    margin-top: 64px;
+}
+
+.testimonial-design > p {
+    text-align: center;
+    color: orange;
+    margin-top: 111px;
+    font-size: 22px;
+    font-family: arial;
+    margin-bottom: 21px;
+}
+
+.testimonial-design h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(38, 70, 83);
+    font-family: arial;
+}
+
+.clients {
+    display: flex;
+    max-width: 1179px;
+    margin: auto auto 59px;
+    position: relative;
+}
+
+.card {
+    max-width: 392px;
+    margin: auto;
+    overflow: hidden;
+    padding-left: 74px;
+    background: white;
+}
+
+.card span {
+    color: rgb(215, 152, 35);
+    font-size: 16px;
+    margin-bottom: 29px;
+    display: block;
+}
+
+.card h3 {
+    font-size: 25px;
+    color: black;
+    font-family: arial;
+    margin-bottom: 30px;
+}
+
+.card p {
+    color: rgb(109, 94, 94);
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.user-name {
+    display: flex;
+}
+
+.image-users {
+    max-width: 78px;
+}
+
+.user-card {
+    margin-left: 18px;
+    margin-top: 2px;
+    line-height: 35px;
+}
+
+.image-users img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.user-card p {
+    color: rgb(98, 91, 91);
+    font-size: 14px;
+    font-family: arial;
+}
+
+.user-card h3 {
+    font-size: 17px;
+    color: rgb(80, 79, 79);
+    margin: 0px;
+}
+
+.clients::before {
+    content: "";
+    position: absolute;
+    left: 48%;
+    width: 38px;
+    height: 2px;
+    background: rgb(38, 70, 83);
+    top: 24px;
+}
+
+.card-bottom {
+    margin-top: 117px;
+}
+
+section.money-bussiness {
+    width: 100%;
+    background: white;
+}
+
+.bussiness {
+    display: flex;
+    background: rgb(232, 235, 237);
+    max-width: 1176px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.gow-bussiness {
+    margin-top: 78px;
+    max-width: 454px;
+}
+
+.gow-bussiness h2 {
+    color: rgb(164, 166, 167);
+    margin-bottom: 24px;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.gow-bussiness p {
+    font-size: 44px;
+    color: rgb(68, 68, 68);
+    margin-bottom: 68px;
+}
+
+.book-bnt {
+    margin-top: 148px;
+}
+
+.book-bnt a {
+    display: inline-block;
+    text-align: center;
+    background: white;
+    padding: 20px 58px;
+    margin-left: 6px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.book-bnt a:first-child {
+    background: rgb(38, 70, 83);
+    color: white;
+    border: 4px solid rgb(233, 196, 106);
+}
+
+.book-bnt a i:first-child {
+    color: rgb(215, 188, 106);
+    margin-right: 4px;
+}
+
+.book-bnt a span {
+    font-size: 18px;
+}
+
+a.btn-for-book i {
+    font-size: 16px;
+    color: rgb(38, 70, 83) !important;
+}
+
+a.btn-for-book {
+    background: rgb(233, 196, 106);
+}
+
+a.btn-for-book span {
+    color: black;
+    font-family: araal;
+}
+
+.footer {
+    width: 100%;
+    background: white;
+}
+
+.main-footer {
+    display: flex;
+    max-width: 1132px;
+    margin: 120px auto auto;
+}
+
+.canvas {
+    max-width: 307px;
+}
+
+.canvas h1 {
+    font-size: 30px;
+    margin-bottom: 26px;
+    color: rgb(38, 70, 83);
+}
+
+.canvas p {
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.social-link {
+    margin-bottom: 88px;
+    position: relative;
+}
+
+.social-link a {
+    width: 47px;
+    height: 47px;
+    background: rgb(225, 242, 225);
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+
+.social-link a i {
+    display: block;
+    color: rgb(131, 125, 125);
+    font-size: 23px;
+    line-height: 49px;
+    transition: all 0.5s ease 0s;
+}
+
+.social-link a:hover i:nth-child(1) {
+    transform: translateY(-49px);
+}
+
+.social-link a:hover i:nth-child(2) {
+    transform: translateY(-49px);
+    color: white;
+}
+
+.social-link a:hover {
+    background: rgb(20, 146, 238);
+}
+
+.menu-links {
+    max-width: 207px;
+    width: 100%;
+    margin-left: 165px;
+}
+
+.menu-links1 {
+    max-width: 240px;
+    width: 100%;
+}
+
+.menu-links2 {
+    max-width: 216px;
+    width: 100%;
+}
+
+.menu-links ul li {
+    line-height: 43px;
+}
+
+.menu-links ul li a {
+    color: rgb(94, 94, 94);
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.menu-links1 ul li a {
+    color: rgb(94, 94, 94);
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 700;
+    line-height: 43px;
+}
+
+.menu-links2 ul li a {
+    color: rgb(94, 94, 94);
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 700;
+    line-height: 43px;
+}
+
+footer {
+    background: white;
+    overflow: hidden;
+    padding: 35px 65px;
+}
+
+.footer-p span {
+    float: left;
+}
+
+.footer-p {
+    float: right;
+}
+
+footer > span {
+    color: rgb(158, 150, 150);
+    font-size: 15px;
+    font-family: arila;
+}
+
+.footer-p span {
+    color: rgb(47, 44, 44);
+    font-size: 15px;
+    border-bottom: 1px dotted;
+    padding-bottom: 4px;
+    margin-left: 5px;
+    font-family: arial;
+}
